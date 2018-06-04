@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="99625__tec-studios__bell003mono_data" version="1.3.0" audacityversion="2.2.2" sel0="1.3045157998" sel1="1.3045157998" vpos="0" h="0.0000000000" zoom="437.7102983856" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags/>
+	<wavetrack name="99625__tec-studios__bell003mono" channel="2" linked="0" mute="0" solo="0" height="901" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="176416">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000dc1.au" len="176416" min="-0.68924" max="0.747437" rms="0.092143"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

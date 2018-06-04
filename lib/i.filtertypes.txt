@@ -1,0 +1,10 @@
+0, display;
+1, lowpass;
+2, highpass;
+3, bandpass;
+4, bandstop;
+5, peaknotch;
+6, lowshelf;
+7, highshelf;
+8, resonant;
+9, allpass;
