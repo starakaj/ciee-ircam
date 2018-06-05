@@ -33,5 +33,6 @@
 # Remaining Time: LAB
 - Simple: Classic monophonic synthesizer. Knobs to control attack, decay, sustain and release.
 - Harder: Same, but add a control for pitch bend and (if you know how) tremolo
-- Impossible: Add knobs to mix together different timbres. Try for example sliding between a harmonic and an inharmonic timbre with a single knob.
+- Still harder: Add knobs to mix together different timbres. Try for example sliding between a harmonic and an inharmonic timbre with a single knob.
+- Very hard: How will you handle voice stealing? One thing you can do is implement glissando (a smooth transition to the next pitch) from the previously held note. Much trickier would be to implement arpeggiation amound all held notes.
 

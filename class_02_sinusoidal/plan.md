@@ -1,8 +1,9 @@
 ## Setup
-- None
+- Quick review, talk about the most important objects from yesterday which were route, gate and select
 
 ## 10 - 10:30
 - Talk about overtones. Play the video of different instruments with different overtone series
+- Look at some examples of different instruments from the audacity file
 - Play the goofy examples with "rice in bowls"
 - Watch the artikulation video, watch another video
 

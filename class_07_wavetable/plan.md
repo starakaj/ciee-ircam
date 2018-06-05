@@ -10,3 +10,5 @@
 - Go into audacity and use it to cut a chunk out of a wave
 - Load that into the buffer and use it to play back the sound at a frequency.
 
+## 10:30 - 11
+- 
