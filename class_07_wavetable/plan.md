@@ -11,4 +11,12 @@
 - Load that into the buffer and use it to play back the sound at a frequency.
 
 ## 10:30 - 11
-- 
+- Talk about phase cancellations as being key components of a sound
+- phasor~ + rate~ + %~ as being a good way to slightly deviate phase
+- Multiple side-by-size wave~ objects with slightly different inputs for rich phase cancellations
+- multislider to control same
+
+## 11 - 11:05 BREAK
+- Equal-power crossfade to shift between same
+- Much like we did with the groove oneshot, we should practice turning this into a reusable external, maybe even a bpatcher
+- Set up two waves and crossfade between them
