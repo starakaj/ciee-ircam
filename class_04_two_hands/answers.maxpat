@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1126.0, 361.0, 331.0, 384.0 ],
+		"rect" : [ 34.0, 79.0, 274.0, 487.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -52,7 +52,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 34.0, 79.0, 732.0, 487.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -80,6 +80,20 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"format" : 6,
+									"id" : "obj-2",
+									"maxclass" : "flonum",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 494.0, 399.0, 50.0, 22.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-209",
 									"linecount" : 2,
@@ -125,7 +139,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 418.0, 336.0, 41.0, 22.0 ],
+									"patching_rect" : [ 494.0, 354.0, 41.0, 22.0 ],
 									"style" : "",
 									"text" : "!/ 700"
 								}
@@ -1357,6 +1371,13 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-162", 1 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
 									"source" : [ "obj-203", 0 ]
 								}
 
@@ -1424,7 +1445,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 59.0, 104.0, 1026.0, 857.0 ],
+						"rect" : [ 34.0, 79.0, 732.0, 487.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1678,7 +1699,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 267.0, 186.0, 74.0, 22.0 ],
 									"style" : "",
-									"text" : "56 58 59 45"
+									"text" : "58 59 45 56"
 								}
 
 							}
@@ -1929,7 +1950,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+						"rect" : [ 34.0, 79.0, 732.0, 487.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1965,7 +1986,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 648.0, 553.0, 150.0, 47.0 ],
 									"style" : "",
-									"text" : "If the number of notes is greater than two, add a glissando"
+									"text" : "If the number of notes is greater than two, add a portamento"
 								}
 
 							}
@@ -2702,7 +2723,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 59.0, 104.0, 721.0, 962.0 ],
+						"rect" : [ 34.0, 79.0, 732.0, 487.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2750,7 +2771,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 191.0, 313.0, 43.0, 22.0 ],
-									"presentation_rect" : [ 190.0, 259.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "pak f f"
 								}
@@ -2801,9 +2821,9 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 78.0, 261.0, 99.0, 22.0 ],
+									"patching_rect" : [ 78.0, 261.0, 89.0, 22.0 ],
 									"style" : "",
-									"text" : "scale 0 127 -5 5."
+									"text" : "scale 0 63 -5 0"
 								}
 
 							}
@@ -3231,7 +3251,6 @@
 					}
 ,
 					"patching_rect" : [ 47.0, 120.0, 87.0, 22.0 ],
-					"presentation_rect" : [ 47.0, 120.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -3261,7 +3280,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 34.0, 79.0, 732.0, 487.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3818,7 +3837,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,

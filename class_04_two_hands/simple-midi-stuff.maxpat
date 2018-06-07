@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1777.0, 1087.0 ],
+		"rect" : [ 450.0, 300.0, 1612.0, 487.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,32 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "live.gain~",
+					"numinlets" : 2,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 352.0, 908.0, 48.0, 136.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "live.gain~",
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0,
+							"parameter_mmin" : -70.0,
+							"parameter_mmax" : 6.0,
+							"parameter_initial" : [ 0.0 ],
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "live.gain~"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"format" : 6,
 					"id" : "obj-107",
@@ -97,7 +123,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 1124.833374, 1106.0, 80.0, 13.0 ],
-					"presentation_rect" : [ 741.333374, 991.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -109,7 +134,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1029.0, 1106.0, 84.0, 22.0 ],
-					"presentation_rect" : [ 645.5, 991.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "send~ master"
 				}
@@ -123,8 +147,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1029.0, 1066.0, 116.0, 17.0 ],
-					"presentation_rect" : [ 645.5, 951.0, 0.0, 0.0 ],
+					"patching_rect" : [ 1029.0, 1067.0, 116.0, 17.0 ],
 					"style" : ""
 				}
 
@@ -160,7 +183,6 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1524.5, 969.0, 45.0, 45.0 ],
-					"presentation_rect" : [ 1524.5, 969.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -174,7 +196,6 @@
 					"outlettype" : [ "signal", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1524.5, 920.0, 116.0, 17.0 ],
-					"presentation_rect" : [ 1524.5, 920.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -628,9 +649,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 908.0, 104.0, 149.0, 22.0 ],
-					"presentation_rect" : [ 811.0, 249.0, 0.0, 0.0 ],
 					"style" : "",
-					"text" : "note 84 0"
+					"text" : "note 92 0"
 				}
 
 			}
@@ -668,9 +688,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 201.0, 801.0, 149.0, 22.0 ],
-					"presentation_rect" : [ 397.0, 846.0, 0.0, 0.0 ],
 					"style" : "",
-					"text" : "note 84 0"
+					"text" : "note 92 0"
 				}
 
 			}
@@ -695,7 +714,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 201.0, 761.0, 40.0, 22.0 ],
-					"presentation_rect" : [ 397.0, 806.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "r midi"
 				}
@@ -709,7 +727,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 323.5, 697.0, 84.5, 22.0 ],
-					"presentation_rect" : [ 314.5, 662.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "*~"
 				}
@@ -736,7 +753,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
 					"patching_rect" : [ 490.833344, 589.0, 47.0, 22.0 ],
-					"presentation_rect" : [ 485.833344, 556.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "curve~"
 				}
@@ -754,7 +770,6 @@
 					"outlettype" : [ "float", "", "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 430.5, 468.0, 200.0, 100.0 ],
-					"presentation_rect" : [ 430.5, 436.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -927,7 +942,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 201.0, 83.0, 149.0, 22.0 ],
 					"style" : "",
-					"text" : "note 84 0"
+					"text" : "note 92 0"
 				}
 
 			}
@@ -1975,6 +1990,10 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-1" : [ "live.gain~", "live.gain~", 0 ]
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "push.decode.maxpat",
 				"bootpath" : "~/Documents/Max 7/Library/ciee-ircam/lib",
