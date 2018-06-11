@@ -142,8 +142,23 @@ function tick() {
   }
 
 	for (var i=0; i < blen; i++) {
-		boids[i][POSITIONX] = Math.max(0, Math.min(1000, boids[i][POSITIONX]));
-		boids[i][POSITIONY] = Math.max(0, Math.min(1000, boids[i][POSITIONY]));
+		
+		if (boids[i][POSITIONX] > 1000 && boids[i][SPEEDX] > 0) {
+			boids[i][SPEEDX] *= -1;
+		} 
+		
+		if (boids[i][POSITIONX] < 0 && boids[i][SPEEDX] < 0) {
+			boids[i][SPEEDX] *= -1;
+		}
+		
+		if (boids[i][POSITIONY] > 1000 && boids[i][SPEEDY] > 0) {
+			boids[i][SPEEDY] *= -1;
+		} 
+		
+		if (boids[i][POSITIONY] < 0 && boids[i][SPEEDY] < 0) {
+			boids[i][SPEEDY] *= -1;
+		}
+		
 		outlet(0, i, boids[i]);
 	}
 }
@@ -155,6 +170,27 @@ function moveAttractor(i, px, py) {
 
 function addAttractor(px, py) {
 	state.attractors.push([px, py, 100000, state.baseforce]);
+}
+
+function setSpeedLimit(s) {
+	state.speedLimit = s;
+	state.speedLimitRoot = Math.sqrt(s);
+}
+
+function setSeparationDistance(d) {
+	state.separationDistance = d * d;
+}
+
+function setSeparationForce(f) {
+	state.separationForce = s;
+}
+
+function setCohesionForce(f) {
+	state.cohesionForce = f;
+}
+
+function setAlignmentForce(f) {
+	state.alignmentForce = f;
 }
 
 function force(f) {

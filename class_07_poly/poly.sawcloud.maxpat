@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 589.0, 104.0, 1044.0, 566.0 ],
+		"rect" : [ 115.0, 429.0, 1044.0, 566.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -125,9 +125,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 93.0, 354.0, 76.0, 22.0 ],
+					"patching_rect" : [ 93.0, 354.0, 83.0, 22.0 ],
 					"style" : "",
-					"text" : "delay~ 1000"
+					"text" : "delay~ 10000"
 				}
 
 			}
@@ -194,12 +194,12 @@
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 93.0, 256.0, 39.0, 22.0 ],
+					"patching_rect" : [ 93.0, 282.0, 40.0, 22.0 ],
 					"style" : "",
-					"text" : "saw~"
+					"text" : "rect~"
 				}
 
 			}
