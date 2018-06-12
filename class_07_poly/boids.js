@@ -182,7 +182,7 @@ function setSeparationDistance(d) {
 }
 
 function setSeparationForce(f) {
-	state.separationForce = s;
+	state.separationForce = f;
 }
 
 function setCohesionForce(f) {
