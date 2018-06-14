@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 5,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 59.0, 104.0, 572.0, 674.0 ],
+		"rect" : [ 34.0, 79.0, 732.0, 487.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 395.0, 151.0, 150.0, 33.0 ],
+					"patching_rect" : [ 389.0, 145.5, 150.0, 33.0 ],
 					"style" : "",
 					"text" : "Magically turns floats to sigs and sigs to sigs!"
 				}
