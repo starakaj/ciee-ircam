@@ -32,4 +32,5 @@
 - Show that you can crossfade using filters as well as a regular crossfade
 
 ## LAB
-- 
+- Find your own samples. Go out into the world, pull them into Audacity and chop them up.
+- See if you can figure out how to use multiple cycle~ objects and multiple crossfaders (you should need three...) to fade between FOUR timbres
