@@ -38,12 +38,51 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 168.5, 104.666672, 315.0, 20.0 ],
+					"presentation_rect" : [ 153.0, 101.333336, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "2a. Hint: it's probably bandpass filters that work best here"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 153.0, 245.333328, 414.0, 33.0 ],
+					"presentation_rect" : [ 152.333328, 229.333328, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "Should the filters be in series (one feeding into the other) or parallel (oscillator goes into both, the result added together) ?"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 168.5, 291.333344, 373.0, 20.0 ],
+					"style" : "",
+					"text" : "Hint: you might need rather sharp Q values to get convincing vowels"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-8",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 153.0, 146.0, 414.0, 33.0 ],
+					"patching_rect" : [ 153.0, 162.0, 414.0, 33.0 ],
 					"presentation_rect" : [ 94.0, 160.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "4. Also consider what oscillator (saw~? rect~? cycle~? tri~?) you want to use to drive the filters."
@@ -57,7 +96,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 153.0, 192.0, 414.0, 33.0 ],
+					"patching_rect" : [ 153.0, 208.0, 414.0, 33.0 ],
 					"presentation_rect" : [ 94.0, 159.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "5. If you finish early or you want a challenge, consider thinking about consonants."
@@ -70,7 +109,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 153.0, 117.0, 414.0, 20.0 ],
+					"patching_rect" : [ 153.0, 133.0, 414.0, 20.0 ],
 					"presentation_rect" : [ 94.0, 144.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "3. Don't forget to think about Q as well as cutoff frequency"
@@ -83,7 +122,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 153.0, 90.0, 414.0, 20.0 ],
+					"patching_rect" : [ 153.0, 78.0, 414.0, 20.0 ],
 					"presentation_rect" : [ 94.0, 104.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "2. Consider which filters you want to use. Probably biquad, but what kind?"
@@ -96,7 +135,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 153.0, 58.0, 414.0, 20.0 ],
+					"patching_rect" : [ 153.0, 46.0, 414.0, 20.0 ],
 					"style" : "",
 					"text" : "1. Take the vowel triangle chart and use it to make a vowel generator in Max"
 				}
@@ -108,7 +147,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 186.0, 25.0, 338.0, 20.0 ],
+					"patching_rect" : [ 186.0, 13.0, 338.0, 20.0 ],
 					"style" : "",
 					"text" : "LAB 10-21: GRAY TROMBONE: VOWEL SOUNDS IN MAX 7"
 				}
