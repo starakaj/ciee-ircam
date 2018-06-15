@@ -38,12 +38,25 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 68.0, 212.800003, 482.0, 20.0 ],
+					"presentation_rect" : [ 68.0, 212.800003, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "5. Could you use the cross~ object to create four frequency regions?"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-9",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 68.0, 272.0, 482.0, 47.0 ],
+					"patching_rect" : [ 68.0, 304.799988, 482.0, 47.0 ],
 					"presentation_rect" : [ 68.0, 272.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "If you're a mad genius and you have super extra time, crossfade between eight waves. Or even 2^N waves, for arbitrary N (you'll definitely need a poly~ object and a polybuffer as well)"
@@ -56,7 +69,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 68.0, 220.0, 482.0, 20.0 ],
+					"patching_rect" : [ 68.0, 268.0, 482.0, 20.0 ],
 					"presentation_rect" : [ 68.0, 220.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Q: How many crossfaders do you need?"

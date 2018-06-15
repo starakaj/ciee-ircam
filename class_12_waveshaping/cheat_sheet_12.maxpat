@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 927.0, 187.0, 680.0, 635.0 ],
+		"rect" : [ 34.0, 79.0, 739.0, 675.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 258.5, 541.0, 275.0, 47.0 ],
-					"presentation_rect" : [ 258.5, 539.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "8. omx.comp~ for compression (there are better alternatives if you're willing to use a plugin, but this objec exists and it's basically fine)"
 				}
@@ -58,7 +57,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "list", "list" ],
 					"patching_rect" : [ 72.0, 541.0, 73.0, 22.0 ],
-					"presentation_rect" : [ 73.0, 541.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "omx.comp~"
 				}
@@ -71,7 +69,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 258.5, 491.0, 275.0, 20.0 ],
-					"presentation_rect" : [ 258.5, 491.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "7. Envelopes and waveshaping go nicely together"
 				}
@@ -394,7 +391,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 258.5, 268.0, 130.0, 20.0 ],
-					"presentation_rect" : [ 258.5, 271.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "3. Literal waveshaping"
 				}
@@ -450,7 +446,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 737.0, 429.5, 75.0, 20.0 ],
-									"presentation_rect" : [ 738.0, 427.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "... or a cycle"
 								}
@@ -476,7 +471,6 @@
 									"numinlets" : 2,
 									"numoutlets" : 0,
 									"patching_rect" : [ 570.0, 501.5, 45.0, 45.0 ],
-									"presentation_rect" : [ 568.0, 501.5, 0.0, 0.0 ],
 									"style" : ""
 								}
 
@@ -490,7 +484,6 @@
 									"outlettype" : [ "signal", "int" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 570.0, 470.0, 146.0, 17.0 ],
-									"presentation_rect" : [ 568.0, 470.0, 0.0, 0.0 ],
 									"style" : ""
 								}
 
@@ -516,7 +509,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 570.0, 435.0, 98.0, 22.0 ],
-									"presentation_rect" : [ 568.0, 435.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "wave~ wtransfer"
 								}
@@ -567,7 +559,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 570.0, 130.0, 126.0, 22.0 ],
-									"presentation_rect" : [ 725.0, 217.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "scale~ 0. 1. 0. 0.9999"
 								}
@@ -581,7 +572,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 570.0, 169.0, 98.0, 22.0 ],
-									"presentation_rect" : [ 725.0, 256.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "wave~ wtransfer"
 								}
@@ -608,7 +598,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 306.0, 381.0, 150.0, 33.0 ],
-									"presentation_rect" : [ 307.0, 381.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "<- Look it's your shape at audio rate"
 								}
@@ -903,7 +892,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 877.5, 437.0, 29.5, 22.0 ],
-									"presentation_rect" : [ 877.5, 437.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "*~"
 								}
@@ -917,7 +905,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 888.0, 350.0, 100.0, 22.0 ],
-									"presentation_rect" : [ 888.0, 350.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "scale~ 0. 1. -1 1."
 								}
@@ -931,7 +918,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 888.0, 310.0, 42.0, 22.0 ],
-									"presentation_rect" : [ 888.0, 310.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : ">=~ 0"
 								}
@@ -945,7 +931,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 819.0, 310.0, 37.0, 22.0 ],
-									"presentation_rect" : [ 819.0, 310.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "abs~"
 								}
@@ -959,7 +944,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 798.0, 383.0, 40.0, 22.0 ],
-									"presentation_rect" : [ 798.0, 383.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "pow~"
 								}
@@ -1051,7 +1035,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 794.5, 208.0, 29.5, 22.0 ],
-									"presentation_rect" : [ 794.5, 208.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "*~"
 								}
@@ -1065,7 +1048,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 794.5, 113.0, 29.5, 22.0 ],
-									"presentation_rect" : [ 794.5, 113.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "1"
 								}
@@ -1079,7 +1061,6 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "", "" ],
 									"patching_rect" : [ 794.5, 158.0, 104.0, 22.0 ],
-									"presentation_rect" : [ 794.5, 158.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "adsr~ 5 2500 0. 0"
 								}
@@ -1093,7 +1074,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 1212.0, 260.0, 103.0, 22.0 ],
-									"presentation_rect" : [ 1212.0, 260.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "scale~ 0. 1. -1. 1."
 								}
@@ -1108,7 +1088,6 @@
 									"numoutlets" : 6,
 									"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 									"patching_rect" : [ 1139.0, 612.0, 256.0, 64.0 ],
-									"presentation_rect" : [ 1139.0, 612.0, 0.0, 0.0 ],
 									"style" : ""
 								}
 
@@ -1121,7 +1100,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 1352.0, 383.0, 52.0, 22.0 ],
-									"presentation_rect" : [ 1352.0, 383.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "*~ 1024"
 								}
@@ -1149,7 +1127,6 @@
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 1066.0, 260.0, 50.0, 22.0 ],
-									"presentation_rect" : [ 1144.0, 260.0, 0.0, 0.0 ],
 									"style" : ""
 								}
 
@@ -1162,7 +1139,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 1212.0, 180.0, 64.0, 22.0 ],
-									"presentation_rect" : [ 1212.0, 180.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "phasor~ 2"
 								}
@@ -1203,7 +1179,6 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 									"patching_rect" : [ 985.0, 109.0, 150.0, 30.0 ],
-									"presentation_rect" : [ 985.0, 109.0, 0.0, 0.0 ],
 									"style" : ""
 								}
 
@@ -1218,7 +1193,6 @@
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 905.0, 117.0, 50.0, 22.0 ],
-									"presentation_rect" : [ 905.0, 117.0, 0.0, 0.0 ],
 									"style" : ""
 								}
 
@@ -1230,7 +1204,6 @@
 									"numinlets" : 2,
 									"numoutlets" : 0,
 									"patching_rect" : [ 877.5, 776.0, 45.0, 45.0 ],
-									"presentation_rect" : [ 857.0, 788.0, 0.0, 0.0 ],
 									"style" : ""
 								}
 
@@ -1244,7 +1217,6 @@
 									"outlettype" : [ "signal", "int" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 877.5, 723.0, 129.0, 19.0 ],
-									"presentation_rect" : [ 857.0, 735.0, 0.0, 0.0 ],
 									"style" : ""
 								}
 
@@ -1257,7 +1229,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 905.0, 158.0, 68.0, 22.0 ],
-									"presentation_rect" : [ 905.0, 158.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "cycle~ 220"
 								}
@@ -1284,7 +1255,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 114.0, 358.0, 110.0, 22.0 ],
-									"presentation_rect" : [ 114.0, 358.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "scale~ -1. 1. 0.5 1."
 								}
@@ -1298,7 +1268,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 88.0, 425.0, 45.0, 22.0 ],
-									"presentation_rect" : [ 88.0, 425.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "cycle~"
 								}
@@ -1351,7 +1320,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 1245.0, 29.5, 150.0, 33.0 ],
-									"presentation_rect" : [ 727.0, 69.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "Or pow~ to waveshape with exponentials"
 								}
@@ -1956,7 +1924,6 @@
 					}
 ,
 					"patching_rect" : [ 72.0, 375.0, 145.0, 22.0 ],
-					"presentation_rect" : [ 71.0, 325.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1977,7 +1944,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 258.5, 375.0, 300.0, 20.0 ],
-					"presentation_rect" : [ 257.5, 327.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "5. Waveshaping with pure functions rather than lookup"
 				}
@@ -2059,7 +2025,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 257.75, 204.0, 411.0, 20.0 ],
-									"presentation_rect" : [ 258.5, 205.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "If you want to be a mega deviant, scale by something other than one here..."
 								}
@@ -3731,7 +3696,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-101", 0 ],
-									"source" : [ "obj-29", 0 ]
+									"source" : [ "obj-3", 0 ]
 								}
 
 							}

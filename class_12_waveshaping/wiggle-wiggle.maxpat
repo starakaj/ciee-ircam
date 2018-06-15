@@ -38,6 +38,32 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 501.0, 706.0, 177.0, 20.0 ],
+					"presentation_rect" : [ 510.0, 694.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "Then this to get the angle. Fun."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 544.0, 561.0, 128.0, 33.0 ],
+					"style" : "",
+					"text" : "All this just to get that distance"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-105",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -104,7 +130,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 268.5, 481.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 268.5, 481.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "$2"
 				}
@@ -118,7 +143,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 214.0, 481.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 214.0, 481.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "$1"
 				}
@@ -132,7 +156,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 90.0, 481.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 88.0, 481.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "$2"
 				}
@@ -159,7 +182,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 433.0, 726.0, 33.0, 22.0 ],
-					"presentation_rect" : [ 288.0, 795.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "asin"
 				}
@@ -185,7 +207,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 433.0, 659.0, 29.5, 22.0 ],
+					"patching_rect" : [ 433.0, 646.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "/ 2."
 				}
@@ -199,7 +221,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 433.0, 477.0, 41.0, 22.0 ],
-					"presentation_rect" : [ 300.0, 541.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "$1 $2"
 				}
@@ -225,7 +246,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 433.0, 626.0, 31.0, 22.0 ],
+					"patching_rect" : [ 433.0, 611.0, 31.0, 22.0 ],
 					"style" : "",
 					"text" : "sqrt"
 				}
@@ -238,7 +259,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 433.0, 596.0, 45.0, 22.0 ],
+					"patching_rect" : [ 433.0, 580.0, 45.0, 22.0 ],
 					"style" : "",
 					"text" : "zl.sum"
 				}
@@ -251,7 +272,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 433.0, 561.0, 88.0, 22.0 ],
+					"patching_rect" : [ 433.0, 547.0, 88.0, 22.0 ],
 					"style" : "",
 					"text" : "vexpr $f1 * $f1"
 				}
@@ -278,7 +299,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 377.0, 299.0, 122.0, 22.0 ],
-					"presentation_rect" : [ 376.0, 299.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "getattr @attr position"
 				}
@@ -319,7 +339,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 552.0, 303.0, 150.0, 22.0 ],
-					"presentation_rect" : [ 648.0, 286.0, 0.0, 0.0 ],
 					"style" : "",
 					"text_width" : 77.0
 				}
